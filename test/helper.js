@@ -243,7 +243,7 @@
     testSupport.require('/node_modules/benchmark/benchmark.js');
     testSupport.require('/test/support/performance.js');
 
-    // Load it here so its pre-loaded in all suite blocks...
+    // Load it here so it is pre-loaded in all suite blocks...
     testSupport.requireICAL();
   }
 

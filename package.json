@@ -97,5 +97,8 @@
       "base": "SauceLabs",
       "browserName": "firefox"
     }
+  },
+  "dependencies": {
+    "@babel/core": "^7.29.0"
   }
 }

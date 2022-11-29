@@ -54,6 +54,29 @@ suite('recur_expansion', function() {
       }, ".ruleIterators or .component must be given");
     });
 
+    test('only rdate without rrule', function() {
+      let component = primary.component.toJSON();
+      component = new ICAL.Component(component);
+      component.removeAllProperties('rrule');
+
+      const subj = new ICAL.RecurExpansion({
+        component,
+        dtstart: primary.startDate
+      });
+      let expected = [
+        new Date(2012, 9, 2, 10),
+        new Date(2012, 10, 5, 10),
+        new Date(2012, 10, 10, 10),
+        new Date(2012, 10, 30, 10)
+      ], dates = [], next;
+
+      while ((next = subj.next())) {
+        dates.push(next.toJSDate());
+      }
+
+      assert.deepEqual(dates, expected);
+    });
+
     test('default', function() {
       let dtstart = ICAL.Time.fromData({
         year: 2012,

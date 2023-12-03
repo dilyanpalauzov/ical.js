@@ -22,30 +22,30 @@
     "parser"
   ],
   "devDependencies": {
-    "@babel/preset-env": "^7.24.3",
-    "@eslint/js": "^9.0.0",
-    "@octokit/core": "^6.0.1",
+    "@babel/preset-env": "^7.24.7",
+    "@eslint/js": "^9.5.0",
+    "@octokit/core": "^6.1.2",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
-    "@stylistic/eslint-plugin": "^2.1.0",
+    "@stylistic/eslint-plugin": "^2.2.0",
     "benchmark": "^2.1.4",
     "c8": "^10.1.2",
-    "chai": "^5.1.0",
-    "clean-jsdoc-theme": "^4.2.18",
-    "eslint": "^9.0.0",
+    "chai": "^5.1.1",
+    "clean-jsdoc-theme": "^4.3.0",
+    "eslint": "^9.5.0",
     "eslint-plugin-html": "^8.1.1",
-    "globals": "^15.0.0",
-    "jsdoc": "^4.0.2",
+    "globals": "^15.4.0",
+    "jsdoc": "^4.0.3",
     "jsdoc-tsimport-plugin": "^1.0.5",
     "karma": "^6.4.3",
     "karma-chai": "^0.1.0",
     "karma-mocha": "^2.0.1",
     "karma-sauce-launcher": "^4.3.6",
     "karma-spec-reporter": "^0.0.36",
-    "mocha": "^10.3.0",
+    "mocha": "^10.4.0",
     "node-fetch": "^3.3.2",
-    "rollup": "^3.2.5",
+    "rollup": "^4.18.0",
     "yauzl-promise": "^4.0.0"
   },
   "license": "MPL-2.0",
@@ -99,6 +99,8 @@
     }
   },
   "dependencies": {
-    "@babel/core": "^7.20.5"
-  }
+    "@babel/core": "^7.24.7",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "yarn@4.0.2+sha256.825003a0f561ad09a3b1ac4a3b3ea6207af2796d54f62a9420520915721f5186"
 }

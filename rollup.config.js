@@ -30,25 +30,6 @@ export default [{
       exports: 'default',
       plugins: [terser(TERSER_OPTIONS)]
     }
-  ]
-}, {
-  input: 'lib/ical/module.js',
-  output: [
-    {
-      file: 'dist/ical.es5.cjs',
-      exports: 'default',
-      name: 'ICAL',
-      format: 'umd',
-      banner: LICENSE,
-    },
-    {
-      file: 'dist/ical.es5.min.cjs',
-      exports: 'default',
-      name: 'ICAL',
-      format: 'umd',
-      banner: LICENSE,
-      plugins: [terser(TERSER_OPTIONS)],
-    }
   ],
   plugins: [
     babel({ babelHelpers: 'bundled', presets: ['@babel/preset-env'] }),

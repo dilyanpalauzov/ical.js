@@ -22,7 +22,7 @@
     "parser"
   ],
   "devDependencies": {
-    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-env": "^7.29.3",
     "@eslint/js": "^10.0.1",
     "@octokit/core": "^7.0.6",
     "@rollup/plugin-babel": "^7.0.0",
@@ -32,10 +32,10 @@
     "benchmark": "^2.1.4",
     "c8": "^11.0.0",
     "chai": "^6.2.2",
-    "clean-jsdoc-theme": "^4.3.0",
-    "eslint": "^10.0.2",
+    "clean-jsdoc-theme": "^4.3.2",
+    "eslint": "^10.3.0",
     "eslint-plugin-html": "^8.1.4",
-    "globals": "^17.4.0",
+    "globals": "^17.6.0",
     "jsdoc": "^4.0.5",
     "jsdoc-tsimport-plugin": "^1.0.5",
     "karma": "^6.4.4",
@@ -44,7 +44,7 @@
     "karma-spec-reporter": "^0.0.36",
     "mocha": "^11.7.5",
     "node-fetch": "^3.3.2",
-    "rollup": "^4.59.0",
+    "rollup": "^4.60.3",
     "yauzl-promise": "^4.0.0"
   },
   "overrides": {
